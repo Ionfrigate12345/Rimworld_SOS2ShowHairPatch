@@ -5,6 +5,7 @@ using System;
 using System.Reflection;
 using Verse;
 using Verse.AI;
+using Verse.Noise;
 
 namespace SOS2ShowHairPatch
 {
@@ -44,7 +45,7 @@ namespace SOS2ShowHairPatch
 
             static bool Prefix(Pawn pawn, ThingDef def, out HatEnum hatEnum)
             {
-                if (pawn!= null && pawn.Map != null && HarmonyUtils.IsSOS2SpaceMap(pawn.Map) && pawn.AmbientTemperature <= pawn.Map.mapTemperature.OutdoorTemp)
+                if (pawn!= null && pawn.Map != null && HarmonyUtils.IsSOS2OrRimNauts2SpaceMap(pawn.Map) && pawn.AmbientTemperature <= pawn.Map.mapTemperature.OutdoorTemp)
                 {
                     hatEnum = HatEnum.HidesAllHair;
                     return false; 

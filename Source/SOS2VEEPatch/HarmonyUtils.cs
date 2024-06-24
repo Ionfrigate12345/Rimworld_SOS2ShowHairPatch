@@ -27,5 +27,15 @@ namespace SOS2ShowHairPatch
 
             return false;
         }
+
+        public static bool IsRimNauts2SpaceMap(Map map)
+        {
+            return map.Biome.defName.StartsWith("RimNauts2_");
+        }
+
+        public static bool IsSOS2OrRimNauts2SpaceMap(Map map)
+        {
+            return IsSOS2SpaceMap(map) || IsRimNauts2SpaceMap(map);
+        }
     }
 }
