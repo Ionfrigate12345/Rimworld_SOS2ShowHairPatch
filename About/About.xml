@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>SOS2 - Show Hair Compatibility Patch</name>
+	<author>Ionfrigate12345</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>Ionfrigate12345.SOS2ShowHairPatch</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ships 2</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1909914131</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>cat2002.showhair</packageId>
+			<displayName>Show Hair With Hats or Hide All Hats</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2879080074</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>kentington.saveourship2</li>
+		<li>cat2002.showhair</li>
+	</loadAfter>
+	<description>This patch make Show Hair always show helmet when a pawn is walking in the vacuum area of SOS2 space map. 
+	Without this patch, in order to avoid seeing your pawns exposed in the outer space with naked head (which breaks immersion), in the mod Show Hair you have to set your EVA compatible helmet to "Hide All Hairs" at least in Default and Draft column in. But doing so takes away your Show Hair setting slots, making your pawns always wearing EVA compatible suits, even when they are on the planet surface where EVA is not required.
+	With this patch, while your pawns are in the vacuum of SOS2 space map, they will always wear helmets regardless of your Show Hair settings. This way you can spare the Show Hair settings of your EVA compatible suits in your perferred way for regular maps.</description>
+</ModMetaData>

@@ -1,0 +1,4 @@
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\SOS2ShowHairPatch\1.5\Assemblies\SOS2ShowHairPatch.dll
+D:\OneDrive\Games\RimworldModSources\SOS2ShowHairPatch\Source\SOS2VEEPatch\obj\Debug\SOS2ShowHairPatch.csproj.AssemblyReference.cache
+D:\OneDrive\Games\RimworldModSources\SOS2ShowHairPatch\Source\SOS2VEEPatch\obj\Debug\SOS2ShowHairPatch.csproj.CoreCompileInputs.cache
+D:\OneDrive\Games\RimworldModSources\SOS2ShowHairPatch\Source\SOS2VEEPatch\obj\Debug\SOS2ShowHairPatch.dll
